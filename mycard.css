@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1536px;
+    height: 100vh;
+    background: linear-gradient(320deg,rgb(238, 126, 186),rgba(207, 103, 200, 0.8),rgb(235, 124, 240));
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog{
+    width: 800px;
+    height: 400px;
+    background: linear-gradient(36deg,rgb(238, 126, 186),rgba(207, 103, 200, 0.8),rgb(235, 124, 240));
+    border-radius: 30px;
+    position: absolute;
+    box-shadow: 0px 0px 5px 2px rgb(233, 115, 227);
+    
+}
+.blog:hover{
+    box-shadow: none;
+    box-shadow: -10px -10px 0px 0px rgba(255, 255, 255, 0.662), -20px -20px 0px 0px rgba(255, 255, 255, 0.556),-30px -30px 0px 0px rgba(255, 255, 255, 0.445),-40px -40px 0px 0px rgba(255, 255, 255, 0.325);
+    border-radius: 0px 0px 0px 70px;
+    transition: all 1s;
+}
+.blog .card{
+    display: flex;
+}
+.blog .card .left{
+    width: 250px;
+}
+.blog .card .left .profile{
+
+}
+.blog .profile{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.blog .profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.blog .card .right{
+    width: ;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.blog .card .right .desc{
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
